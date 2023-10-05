@@ -1,5 +1,5 @@
-from Staff.Point3D import Point3D
-from Staff.Angle3D import Angle3D
+from Stuff.Point3D import Point3D
+from Stuff.Angle3D import Angle3D
 
 
 class Camera:

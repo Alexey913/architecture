@@ -1,9 +1,9 @@
-from Staff.Point3D import Point3D
+from Stuff.Point3D import Point3D
 
 
 class Poligon:
 
-    def __init__(self, *args) -> None:
-        if len(args) == 0:
-            raise ValueError('Количество 3D-точек должно быть больше 0')
-        self.points: tuple(Point3D) = args
+    points: list[Point3D]
+
+    def __init__(self, point: Point3D) -> None:
+        self.points.append(point)

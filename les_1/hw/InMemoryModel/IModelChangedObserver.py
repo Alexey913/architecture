@@ -1,10 +1,6 @@
-from abc import ABC, abstractmethod
+import zope.interface
 
-class IModelChangedObserver(ABC):
+class IModelChangedObserver(zope.interface.Interface):
 
-    @abstractmethod
-    def apply_update_model(self):
+    def apply_update_model():
         ...
-
-
-        # https://habr.com/ru/articles/72757/

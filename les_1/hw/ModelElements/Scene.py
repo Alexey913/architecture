@@ -10,7 +10,7 @@ class Scene:
     cameras: list[Camera]
 
 
-    def __init__(self, models: PoligonalModel, cameras: Camera, flashes: Flash) -> None:
+    def __init__(self, models: list[PoligonalModel], cameras: list[Camera], flashes: list[Flash]) -> None:
         if len(models) == 0:
             raise ValueError('Количество моделей не должно быть меньше 1')
         if len(cameras) == 0:

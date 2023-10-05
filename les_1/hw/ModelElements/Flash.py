@@ -1,6 +1,6 @@
-from Staff.Point3D import Point3D
-from Staff.Angle3D import Angle3D
-from Staff.Color import Color
+from Stuff.Point3D import Point3D
+from Stuff.Angle3D import Angle3D
+from Stuff.Color import Color
 
 
 class Flash:
