@@ -15,7 +15,7 @@ __DEFAULT_COLOR = None
 __DEFAULT_POWER = 1.0
 __DEFAULT_TEXTURE = None
 
-class ModelStore:
+class ModelStore(object):
     zope.interface.implementer(IModelChanger)
 
     models: list[PoligonalModel]
