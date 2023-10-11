@@ -1,0 +1,22 @@
+<mxfile host="65bd71144e">
+    <diagram id="U6mxPA4u_fu3pClSX2C-" name="Страница 1">
+        <mxGraphModel dx="1155" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" value="&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;User&lt;/p&gt;&lt;hr style=&quot;text-align: left;&quot;&gt;&lt;p style=&quot;font-size: 10px; margin: 0px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 10px; margin: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;- id: int&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 10px; margin: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;- user_name: str&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 10px; margin: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;- hash_password: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 10px; margin: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;- card_number: int&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: left; margin: 0px 0px 0px 8px;&quot;&gt;+getr/setr&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="40" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;Ticket&lt;/p&gt;&lt;hr style=&quot;text-align: left;&quot;&gt;&lt;p style=&quot;font-size: 10px; margin: 0px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; margin: 0px;&quot;&gt;- price: float&lt;/p&gt;&lt;p style=&quot;text-align: left; margin: 0px;&quot;&gt;- id: int&lt;/p&gt;&lt;p style=&quot;text-align: left; margin: 0px;&quot;&gt;- place: int&lt;/p&gt;&lt;p style=&quot;text-align: left; margin: 0px;&quot;&gt;-date_time: datetime&lt;/p&gt;&lt;p style=&quot;text-align: left; margin: 0px;&quot;&gt;- is_valid: bool&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: left; margin: 0px 0px 0px 8px;&quot;&gt;+getr/setr&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry y="160" width="120" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;BankAccount&lt;/p&gt;&lt;hr style=&quot;text-align: left;&quot;&gt;&lt;p style=&quot;font-size: 10px; margin: 0px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 10px; margin: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;- card: int&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 10px; margin: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;- balance: float&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: left; margin: 0px 0px 0px 8px;&quot;&gt;+getr/setr&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="400" width="120" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;Carrier&lt;/p&gt;&lt;hr style=&quot;text-align: left;&quot;&gt;&lt;p style=&quot;font-size: 10px; margin: 0px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 10px; margin: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;- id: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; margin: 0px;&quot;&gt;- places: list&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 10px; margin: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;- card_number: int&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;text-align: left; margin: 0px 0px 0px 8px;&quot;&gt;+getr/setr&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="707" y="160" width="120" height="110" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
