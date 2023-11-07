@@ -188,22 +188,22 @@ paths:
             adplication/json:
               schema:
                 $ref: "#/components/schemas/Error"
-  /robots/{idRobot}:
+  /robots/{id_GroupUser}:
     get:
-      summary: Метод получения пылесоса по id
+      summary: Метод получения пылесоса по id группы
       tags:
         - Robots
-      operationId: getRobotId
+      operationId: getRobotIdGroup
       parameters:
-        - name: idRobot
+        - name: id_GroupUser
           in: path
           required: true
-          description: id Robot
+          description: id GroupUser
           schema:
             type: string
       responses:
         "200":
-          description: Усшный ответ получения пылесоса по id
+          description: Успешный ответ получения пылесоса по id группы
           content:
             adplication/json:
               schema:
