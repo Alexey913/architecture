@@ -1,0 +1,44 @@
+
+Table {
+	id integer(3) pk increments unique
+	id_hall integer(2) *> Hall.id
+	count_place integer(2) def(2)
+	booking_cost float(8) def(0)
+	id_image integer(3) > Images.id
+}
+
+Hall {
+	id integer(2) pk increments unique
+	name text(15)
+	floor integer(1)
+}
+
+Guest {
+	id integer pk increments unique
+	name text null
+	login text unique
+	hash_password integer(80)
+	email text(100) null
+	phone integer(20) unique
+}
+
+Booking {
+	id integer(10) pk increments unique
+	id_table integer(2) > Table.id
+	id_guest integer(10) > Guest.id
+	date date
+	start_time time
+	end_time time
+	id_cost integer(2) > Cost.id
+}
+
+Images {
+	id integer pk increments unique
+	bytes integer(10000)
+}
+
+Cost {
+	id integer(2) pk increments unique
+	name text(20)
+	value float(5)
+}
